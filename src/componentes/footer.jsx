@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <div className=" w-full ">
       {/* Footer Grid Section */}
-      <div className=" footer grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-30 p-6 gap-5  mx-20">
+      <div className=" footer grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-30 p-6 gap-5 lg:mx-20">
         
         {/* First Section (Logo & Social Icons) */}
         <div className="first">
           <img src={logo} alt="Logo" className="mb-6 w-32" />
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-600 mb-6 w-40 lg:w-full">
             Clarity gives you the blocks and components you need to create a truly professional website.
           </p>
           <div className="flex gap-4">
@@ -23,7 +23,7 @@ const Footer = () => {
 
         {/* Second Section (Company Links) */}
         
-        <div className="second">
+        <div className="second  mx-5 mt-14 lg:m-0">
           <ul>
             <p className="font-bold text-blue-500 hover:text-blue-700 mb-2">COMPANY</p>
             <li className="text-gray-600 mb-1 hover:text-gray-800 cursor-pointer">Home</li>
@@ -34,6 +34,7 @@ const Footer = () => {
         </div>
 
         {/* Third Section (Legal) */}
+        
         <div className="third">
           <ul>
             <p className="font-bold text-blue-500 hover:text-blue-700 mb-2">LEGAL</p>

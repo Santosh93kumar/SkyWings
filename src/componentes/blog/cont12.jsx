@@ -27,7 +27,7 @@ const Cont11 = () => {
           Our complete assistance will be with you, and we guide you
           accordingly.
         </p>
-        <h2 className="text-2xl self-start mx-20 mb-5 font-semibold">
+        <h2 className="text-2xl self-start lg:mx-20 mb-5 font-semibold">
           Upcoming Seminars
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
@@ -45,7 +45,7 @@ const Cont11 = () => {
           ))}
         </div>
       {/* ----------------------------------Webinar Recordings--------------- */}
-      <h2 className="text-2xl self-start mt-10 mx-20 mb-5 font-semibold">
+      <h2 className="text-2xl self-start mt-10 lg:mx-20 mb-5 font-semibold">
       Webinar Recordings
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">

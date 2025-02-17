@@ -3,7 +3,6 @@ import img from '../../assets/products/image.png';
 const Cont5 = () => {
   const profile = Array(8).fill({
     text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quidem culpa iste possimus minus ad ipsum expedita sed.',
-    // image: img,
     image: img,
     name: 'Samantha Payne',
     ac: '@SamPanye12'
@@ -24,7 +23,7 @@ const Cont5 = () => {
       
       <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center mx-20">
         {profile.map((data, index) => (
-          <div key={index} className=" w-full max-w-xs bg-white shadow-lg rounded-lg p-4 flex flex-col items-center text-center">
+          <div key={index} className="  bg-white shadow-lg rounded-lg p-4 flex flex-col items-center text-center w-75 md:w-auto lg:w-auto">
             <p className="text-gray-700 text-sm mb-4">{data.text}</p>
             <div className="flex items-center mt-auto w-full">
               <img src={data.image} alt="Profile" className="w-12 h-12 rounded-full object-cover m-2" />

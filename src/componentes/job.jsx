@@ -25,7 +25,7 @@ const Job = () => {
           <form
             action="/search"
             method="GET"
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-3 rounded-lg shadow   bg-white"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-3 rounded-lg shadow   bg-white mx-5 w-80 md:w-auto lg:w-full  "
           >
             {/* Job Search Input */}
             <div className="relative w-full">
@@ -67,7 +67,7 @@ const Job = () => {
             </button>
           </form>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-10 w-75 md:w-auto lg:w-auto">
           {jobs.map((job, index) => (
             <div
               key={index}
@@ -115,36 +115,34 @@ const Job = () => {
           Our complete assistance will be with you, and we guide you
           accordingly.
         </p>
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="p-6 rounded-lg flex items-center">
-            <img src={bg1} alt="Priya" className="mr-4" />
-            <div>
-              <p className="">
-                "We love Landingfolio! Our designers were using it for their
-                projects, so we already knew what kind of design they want knew
-                what kind of design they want.""
-              </p>
-              <p className="text-lg font-medium mt-2 ">
-                Priya,
-                <span className="text-gray-400 ml-2">Software Engineer</span>
-              </p>
-            </div>
-          </div>
-          <div className="p-6 rounded-lg flex items-center">
-            <img src={bg2} alt="Jenny Wilson" className=" mr-4" />
-            <div>
-              <p className="">
-                "We love Landingfolio! Our designers were using it for their
-                projects, so we already knew what kind of design they want knew
-                what kind of design they want.""
-              </p>
-              <p className="text-lg font-medium mt-2">
-                Jenny Wilson,
-                <span className="text-gray-400  ml-2">Grower.io</span>
-              </p>
-            </div>
-          </div>
-        </div>
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 p-4">
+  {/* Testimonial 1 */}
+  <div className="p-6 rounded-lg flex flex-col sm:flex-row items-center ">
+    <img src={bg1} alt="Priya" className="mb-4 sm:mb-0 sm:mr-4" />
+    <div className="text-center sm:text-left">
+      <p className="text-gray-700">
+        "We love Landingfolio! Our designers were using it for their projects, so we already knew what kind of design they want."
+      </p>
+      <p className="text-lg font-medium mt-2">
+        Priya, <span className="text-gray-400 ml-2">Software Engineer</span>
+      </p>
+    </div>
+  </div>
+
+  {/* Testimonial 2 */}
+  <div className="p-6 rounded-lg flex flex-col sm:flex-row items-center ">
+    <img src={bg2} alt="Jenny Wilson" className=" mb-4 sm:mb-0 sm:mr-4" />
+    <div className="text-center sm:text-left">
+      <p className="text-gray-700">
+        "We love Landingfolio! Our designers were using it for their projects, so we already knew what kind of design they want."
+      </p>
+      <p className="text-lg font-medium mt-2">
+        Jenny Wilson, <span className="text-gray-400 ml-2">Grower.io</span>
+      </p>
+    </div>
+  </div>
+</div>
+
       </div>
       <Cont5></Cont5>
     </>
