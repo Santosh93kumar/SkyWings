@@ -54,11 +54,11 @@ const Cont1 = () => {
       {/* <Cont1A></Cont1A>   */}
 
       {/* <div className=" bg-[#F9F5FF] sticky top-0"> */}
-      <div className=" bg-gray-100  sticky top-0">
+      <div className=" bg-gray-100  sticky top-0  ">
         <form
           action="/search"
           method="GET"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-3 rounded-lg shadow w-[80%] mx-[10%] bg-white "
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-3 rounded-lg shadow  bg-white mx-5 w-80 md:w-auto lg:w-[80%] lg:mx-[10%] "
         >
           {/* Job Search Input */}
           <div className="relative w-full">
@@ -71,7 +71,7 @@ const Cont1 = () => {
               name="job"
               placeholder="Search by job or skill"
               aria-label="Job Search"
-              className="border-r-2 pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
+              className="border-r-2  pl-10 pr-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
               required
             />
           </div>

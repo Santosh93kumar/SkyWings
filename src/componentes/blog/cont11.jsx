@@ -79,7 +79,7 @@ const Cont11=()=> {
       {/* <h1 className='font-bold text-5xl  my-3'>Stories and interviews</h1> */}
       <p className='text-gray-500 mt-4 text-lg'>Subscribe to learn about new project features, the latest in technology,<br/> solutions, and update</p>
     </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 mx-20   ">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 lg:mx-20 w-85 m-auto md:w-auto   ">
       
       {articles.map((article, index) => (
         <div

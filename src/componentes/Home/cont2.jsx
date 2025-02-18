@@ -1,6 +1,7 @@
 import img2 from '../../assets/products/image 2.png'
 import { MdLocationOn } from "react-icons/md";
 import bag from "../../assets/products/Vector.png"
+import {Link} from 'react-router-dom'
 function Cont2() {
     const jobs = Array(10).fill({
       title: "Senior Manager",
@@ -11,11 +12,11 @@ function Cont2() {
   
     return (
       <div className="flex flex-col items-center p-6 bg-[#F9F5FF] min-h-screen  ">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-10 w-75 md:w-auto lg:w-auto">
           {jobs.map((job, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-2xl p-6 border border-gray-200"
+              className="bg-white shadow-md rounded-2xl p-6 border w-full border-gray-200 "
             >
               <div className="flex items-center space-x-3">
                 <div className="w-12  ">
@@ -34,9 +35,10 @@ function Cont2() {
                   <span><img src={bag} alt="" /></span> <span>{job.experience}</span>
                 </p>
               </div>
-              <button className="mt-4 w-full py-2 border-2 border-purple-500 text-purple-500 font-semibold rounded-lg hover:bg-purple-100 transition">
+              <Link to='/jobdetails'>
+              <button className="mt-4 w-full py-2 border-2 border-purple-500 text-purple-500 font-semibold rounded-lg hover:bg-purple-100  transition">
                 View Details
-              </button>
+              </button></Link>
             </div>
           ))}
         </div>
