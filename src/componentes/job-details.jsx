@@ -20,17 +20,18 @@ const JobDtails = () => {
   return (
     <> 
     <div className="grid lg:grid-cols-2 md:grid-cols-2 ">
-        {/* -------------------------for jobs--------------------- */}
+    
+        {/* -------------------------for jobs---------- ----------- */}
       <div className="flex flex-col items-center p-6 min-h-screen  ">
-        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 mt-10">
           {jobs.map((job, index) => (
             <div key={index} className="bg-[#F7F7F7]  rounded-2xl p-6 ">
               <div className="flex items-center space-x-3">
-                <div className="w-12  ">
+                {/* <div className="w-12  ">
                   <img src={img2} alt="" />
-                </div>
+                </div> */}
                 <div>
-                  <h3 className="text-lg font-semibold">{job.title}</h3>
+                  <h3 className="md:text-lg text-sm font-semibold">{job.title}</h3>
                   <p className="text-gray-500">{job.company}</p>
                 </div>
               </div>
@@ -41,7 +42,7 @@ const JobDtails = () => {
                   </span>{" "}
                   <span>{job.location}</span>
                 </p>
-                <p className="flex items-center space-x-2">
+                <p className="flex items-center text-sm lg:text-base space-x-2">
                   <span>
                     <img src={bag} alt="" />
                   </span>{" "}
@@ -56,7 +57,7 @@ const JobDtails = () => {
         </div>
       </div>
 
-      <div className="max-w-[75%] h-fit mx-auto p-6 bg-white rounded-2xl  border border-gray-200 mb-4 sm:mx-2 max-h-auto sticky top-0 ">
+      <div className="max-w-[75%] h-fit mx-auto p-6 bg-white rounded-2xl  border border-gray-200 mb-4 sm:mx-2 max-h-auto">
         <div className="rounded-2xl p-2 ">
           <div className="flex items-center space-x-3">
             <div className="w-12  ">
@@ -149,7 +150,7 @@ const JobDtails = () => {
 
       {/* Main modal */}
       {isOpen && (
-        <div className="fixed inset-0 flex items-center justify-center  z-50 p-4  ">
+        <div className="fixed inset-0 flex items-center justify-center  z-50 p-4 bg-gray-50 ">
           <div className="relative w-full sm:max-w-md md:max-w-lg lg:max-w-xl bg-white rounded-lg shadow-lg p-6 dark:bg-gray-800"style={{boxShadow: "10px 10px #2979FE"}}>
             {/* Modal Header */}
             <div className="flex justify-between items-center pb-4 border-b">
