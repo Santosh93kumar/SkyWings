@@ -15,6 +15,7 @@ import img15 from '../../assets/products/Vector (15).png'
 import img16 from '../../assets/products/Vector (16).png'
 import img17 from '../../assets/products/Frame1.png'
 import Cont6A from './cont6-A';
+import Cont1A from './cont1-A';
 export default function Cont4() {
   
   const industries = [
@@ -48,11 +49,11 @@ export default function Cont4() {
       <h2 className="text-lg text-purple-600 mt-4">
         Our complete assistance will be with you and we guide you accordingly.
       </h2>
-      <div className="flex flex-wrap justify-center gap-5 mt-6 px-4">
+      <div className="flex flex-wrap justify-center gap-5 mt-6 px-4 ">
         {industries.map((industry, index) => (
           <div
             key={index}
-            className="flex items-center gap-3 bg-gray-200 px-4 py-2 rounded-lg shadow-sm hover:bg-gray-300 cursor-pointer"
+            className="flex items-center gap-3 bg-gray-200 rounded-lg shadow-sm hover:bg-gray-300 cursor-pointer lg:w-50  md:px-4 md:py-2  px-4 py-5 "
           >
             <span className="text-lg"><img src={industry.icon} alt="" /></span>
             <span className="text-sm font-medium">{industry.name}</span>
@@ -62,7 +63,7 @@ export default function Cont4() {
     </div>
 {/* -------------------------------Top Partnership---------------------------- */}
    <Cont6A></Cont6A>
-    
+   <Cont1A></Cont1A> 
 </>
   );
 }

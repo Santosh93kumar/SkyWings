@@ -62,8 +62,11 @@ const Cont6 = () => {
         </div>
         <div className="text">
            <h1 className="text-2xl font-medium">Still have Question ?</h1>
-           <p className="text-sm text-gray-600">Can't find the answer you're looking for? Please chat to our friendly team.
+           <p className="text-sm text-gray-600 mb-5">Can't find the answer you're looking for? Please chat to our friendly team.
            </p>
+           <span className="w-full h-fit bg-purple-600 text-white rounded-lg  p-2 cursor-pointer ">
+            Get in touch
+          </span>
        </div>
 
        

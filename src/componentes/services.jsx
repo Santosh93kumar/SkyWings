@@ -18,6 +18,8 @@ import img17 from '../assets/products/image 50.png'
 import img18 from '../assets/products/image 51.png'
 import img19 from '../assets/products/image 52.png'
 
+import Cont5 from './Home/cont5'
+
 function Services() {
     const list = [
       { title: "Permanent Staffing", image: img1 },
@@ -43,6 +45,7 @@ function Services() {
     ];
   
     return (
+      <>
       <div className="flex flex-col items-center p-6 bg-[#F5F5F5] min-h-screen">
         <span className="bg-purple-200 text-purple-700 text-xs font-semibold px-3 py-1 my-2 rounded-full">
         SERVICES
@@ -64,6 +67,8 @@ function Services() {
           ))}
         </div>
       </div>
+      <Cont5/>
+      </>
     );
   }
 export default Services;
