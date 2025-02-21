@@ -1,7 +1,9 @@
 import img2 from "../../assets/products/image 16.png";
 import { FaSearch, FaMapMarkerAlt } from "react-icons/fa";
+import Cont2 from "./cont2";
 
 const Cont1 = () => {
+  
   
   return (
     <>
@@ -65,7 +67,7 @@ const Cont1 = () => {
           </button>
         </form>
       </div>
-      
+      <Cont2/>
     </>
   );
 };
