@@ -9,6 +9,7 @@ function Cont2() {
     location: "Bangalore",
     experience: "5 Years of experience",
   });
+  
 
   return (
     <div className="flex flex-col items-center p-6 bg-[#F9F5FF] min-h-screen  ">
