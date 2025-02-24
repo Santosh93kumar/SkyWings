@@ -13,7 +13,7 @@ export default function Career() {
 
   return (
     <div>
-      <div className="grid lg:grid-cols-2 sm:grid-cols-1 items-center bg-[#F5F5F5] p-6">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 items-center bg-[#f5f5f5] p-6">
         <div className=" px-6 lg:px-22 mt-10 ">
           <span className="text-black font-semibold sm:text-sm lg:text-4xl">
             Careers at Assured Job
@@ -65,7 +65,7 @@ export default function Career() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-9 bg-[#F5F5F5] p-4 mt-4 ">
           {Career.map((job, index) => (
-            <div key={index} className="bg-[#F7F7F7] p-4 hover:shadow-lg ">
+            <div key={index} className="bg-white p-4 hover:shadow-lg ">
               <p className="font-medium">{job.title}</p>
               <p className="flex items-center mt-2 text-gray-600">
                 <FaMapMarkerAlt className="inline-block mr-1 text-gray-500" />
