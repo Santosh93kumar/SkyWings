@@ -1,6 +1,6 @@
-import img1 from "../../assets/products/image 33.png";
+import img1 from "../../assets/products/image33.png";
 import img2 from "../../assets/products/image 35.png";
-import img3 from "../../assets/products/image 36.png";
+import img3 from "../../assets/products/image36.png";
 import img4 from "../../assets/products/image 37.png";
 
 const Cont11 = () => {

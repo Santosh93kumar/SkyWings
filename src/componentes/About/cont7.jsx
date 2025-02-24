@@ -103,7 +103,7 @@ const Cont7 = () => {
         </div>
 
         {/* Grid Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:mx-20 gap-6 w-75 lg:w-auto md:w-auto ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:mx-20 gap-6 w-full ">
           {awards.map((award, index) => (
             <div
               key={index}

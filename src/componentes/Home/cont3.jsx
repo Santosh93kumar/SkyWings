@@ -15,7 +15,7 @@ function Cont3() {
     const services = [
       { title: "Permanent Staffing", image: img1 },
       { title: "Temporary Staffing", image: img2},
-      { title: "Contract Staffing", image: img3},
+      { title: "Contract c", image: img3},
       { title: "Executive Search", image: img4 },
       { title: "Recruitment Process Outsourcing (RPO)", image: img5},
       { title: "Skill Gap Assessment", image: img6},
