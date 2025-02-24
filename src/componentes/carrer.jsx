@@ -63,7 +63,7 @@ export default function Career() {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-4 gap-y-9 bg-[#F5F5F5] p-4 mt-4 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-9 bg-[#F5F5F5] p-4 mt-4 ">
           {Career.map((job, index) => (
             <div key={index} className="bg-[#F7F7F7] p-4 hover:shadow-lg ">
               <p className="font-medium">{job.title}</p>
@@ -75,7 +75,7 @@ export default function Career() {
                 <FaBriefcase className="inline-block mr-1 text-gray-500" />
                 {job.experience}
               </p>
-              <button className="mt-4 px-16 py-3 text-purple-600 border border-purple-600 rounded-lg font-medium hover:bg-purple-300">
+              <button className="mt-4 px-4 py-3 text-blue-500 hover:text-white hover:bg-blue-500 border border-blue-500 rounded-lg font-medium ">
                 View Details
               </button>
             </div>

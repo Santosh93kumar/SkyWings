@@ -64,7 +64,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
-                  : 'hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  : 'px-3 py-2 rounded-md text-sm font-medium'
               }
             >
               Home
@@ -75,7 +75,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
-                  : 'hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  : ' px-3 py-2 rounded-md text-sm font-medium'
               }
             >
               Service
@@ -86,62 +86,62 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
-                  : 'hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  : ' px-3 py-2 rounded-md text-sm font-medium'
               }
             >
               Job
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to="/employes"
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
-                  : 'hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  : ' px-3 py-2 rounded-md text-sm font-medium'
               }
             >
               Employes
-            </NavLink>
-
+            </NavLink> */}
+{/* 
             <NavLink
               to="/fresher"
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
-                  : 'hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  : ' px-3 py-2 rounded-md text-sm font-medium'
               }
             >
               Fresher
-            </NavLink>
+            </NavLink> */}
 
             <NavLink
               to="/about"
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
-                  : 'hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  : '  px-3 py-2 rounded-md text-sm font-medium'
               }
             >
               About
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to="/blog"
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
-                  : 'hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  : 'px-3 py-2 rounded-md text-sm font-medium'
               }
             >
               Blog
-            </NavLink>
+            </NavLink> */}
 
             <NavLink
               to="/carrers"
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
-                  : 'hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  : 'px-3 py-2 rounded-md text-sm font-medium'
               }
             >
               Careers
@@ -152,7 +152,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
-                  : 'hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+                  : ' px-3 py-2 rounded-md text-sm font-medium'
               }
             >
               Contact
@@ -201,7 +201,7 @@ const Navbar = () => {
               Job
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to="/employes"
               onClick={() => setIsMobileMenuOpen(false)}
               className={({ isActive }) =>
@@ -211,9 +211,9 @@ const Navbar = () => {
               }
             >
               Employes
-            </NavLink>
+            </NavLink> */}
 
-            <NavLink
+            {/* <NavLink
               to="/fresher"
               onClick={() => setIsMobileMenuOpen(false)}
               className={({ isActive }) =>
@@ -223,7 +223,7 @@ const Navbar = () => {
               }
             >
               Fresher
-            </NavLink>
+            </NavLink> */}
 
             <NavLink
               to="/about"
@@ -237,7 +237,7 @@ const Navbar = () => {
               About
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to="/blog"
               onClick={() => setIsMobileMenuOpen(false)}
               className={({ isActive }) =>
@@ -247,7 +247,7 @@ const Navbar = () => {
               }
             >
               Blog
-            </NavLink>
+            </NavLink> */}
 
             <NavLink
               to="/carrers"

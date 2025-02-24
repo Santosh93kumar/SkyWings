@@ -32,10 +32,10 @@ function Cont3() {
         <span className="bg-purple-200 text-purple-700 text-xs font-semibold px-3 py-1 my-2 rounded-full">
         SERVICES
       </span>
-        <p className="text-purple-700 mb-8 text-center max-w-2xl">
+        <p className="text-purple-700 mb-8 text-center ">
           Our complete assistance will be with you, and we guide you accordingly.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-20 w-75 md:w-auto  ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-20 w-full  ">
           {services.map((service, index) => (
             <div key={index} className="bg-[#F5F5F5]  rounded-xl overflow-hidden">
               <img src={service.image} alt={service.title} className="w-full h-40 object-cover" />
