@@ -21,9 +21,9 @@ const Cont5 = () => {
         Read what our clients have to say
       </p>
       
-      <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center mx-20">
+      <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center mx-10">
         {profile.map((data, index) => (
-          <div key={index} className="  bg-white shadow-lg rounded-lg p-4 flex flex-col items-center text-center w-75 md:w-auto lg:w-auto">
+          <div key={index} className="  bg-white shadow-lg rounded-lg p-4 flex flex-col items-center text-center w-full lg:w-auto">
             <p className="text-gray-700 text-sm mb-4">{data.text}</p>
             <div className="flex items-center mt-auto w-full">
               <img src={data.image} alt="Profile" className="w-12 h-12 rounded-full object-cover m-2" />
