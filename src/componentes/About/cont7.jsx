@@ -91,7 +91,7 @@ const Cont7 = () => {
       <Cont1A></Cont1A>
       {/* -------------------------------RED DOT---------------------------------- */}
 
-      <div className="bg-white w-full flex flex-col p-6 sm:p-10 mt-12 sm:mt-16">
+      {/* <div className="bg-white w-full flex flex-col p-6 sm:p-10 mt-12 sm:mt-16">
         <div className="text-center mb-8">
           <span className="bg-purple-50 text-purple-500 px-4 py-1 rounded-full text-sm font-semibold">
             AWARDS
@@ -102,7 +102,7 @@ const Cont7 = () => {
           </h2>
         </div>
 
-        {/* Grid Section */}
+       
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:mx-20 gap-6 w-full ">
           {awards.map((award, index) => (
             <div
@@ -120,7 +120,7 @@ const Cont7 = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

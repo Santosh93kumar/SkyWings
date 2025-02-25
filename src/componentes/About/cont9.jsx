@@ -3,7 +3,7 @@ import ig2 from "../../assets/products/image 56.png";
 const Cont9 = () => {
   return (
     <>
-      <div className="flex flex-col items-center px-4  w-full">
+      {/* <div className="flex flex-col items-center px-4  w-full">
         <p className="text-center lg:text-xl font-semibold max-w-2xl mb-4 w-80 md:w-auto ">
           Sky Wings Advisors helps Indian businesses build stable, long-term
           workforces. Our permanent staffing solutions are designed to match
@@ -17,7 +17,7 @@ const Cont9 = () => {
           
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl ">
-            {/* Top Image */}
+           
             <div className="w-full">
               <img
                 src={ig1}
@@ -26,7 +26,7 @@ const Cont9 = () => {
               />
             </div>
 
-            {/* Top Right Image */}
+           
             <div className="w-full flex justify-center">
               <img
                 src={ig2}
@@ -36,7 +36,7 @@ const Cont9 = () => {
             </div>
           </div>
 
-          {/* Bottom Image */}
+         
           <div className=" max-w-xl mt-4">
             <img
               src={ig2}
@@ -45,7 +45,7 @@ const Cont9 = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

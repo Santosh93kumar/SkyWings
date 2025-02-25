@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="sm:hidden">
           <button
     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-    className="text-gray-500 hover:text-black focus:outline-none"
+    className="text-gray-700 hover:text-black focus:outline-none"
   >
     {isMobileMenuOpen ? (
       // Cross (X) Icon when menu is open
@@ -63,7 +63,7 @@ const Navbar = () => {
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
+                  ? 'text-red-400 px-3 py-2 rounded-md text-sm  font-bold underline'
                   : 'px-3 py-2 rounded-md text-sm font-medium'
               }
             >
@@ -74,7 +74,7 @@ const Navbar = () => {
               to="/services"
               className={({ isActive }) =>
                 isActive
-                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
+                  ? 'text-red-600 px-3 py-2 rounded-md text-sm  font-bold underline'
                   : ' px-3 py-2 rounded-md text-sm font-medium'
               }
             >
@@ -85,7 +85,7 @@ const Navbar = () => {
               to="/job"
               className={({ isActive }) =>
                 isActive
-                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
+                  ? 'text-red-600 px-3 py-2 rounded-md text-sm  font-bold underline'
                   : ' px-3 py-2 rounded-md text-sm font-medium'
               }
             >
@@ -118,7 +118,7 @@ const Navbar = () => {
               to="/about"
               className={({ isActive }) =>
                 isActive
-                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
+                  ? 'text-red-600 px-3 py-2 rounded-md text-sm  font-bold underline'
                   : '  px-3 py-2 rounded-md text-sm font-medium'
               }
             >
@@ -140,7 +140,7 @@ const Navbar = () => {
               to="/carrers"
               className={({ isActive }) =>
                 isActive
-                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
+                  ? 'text-red-600 px-3 py-2 rounded-md text-sm  font-bold underline'
                   : 'px-3 py-2 rounded-md text-sm font-medium'
               }
             >
@@ -151,7 +151,7 @@ const Navbar = () => {
               to="/contact"
               className={({ isActive }) =>
                 isActive
-                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-medium'
+                  ? 'text-red-600 px-3 py-2 rounded-md text-sm  font-bold underline'
                   : ' px-3 py-2 rounded-md text-sm font-medium'
               }
             >
@@ -170,8 +170,8 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
-                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-bold underline block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-500 px-3 py-2 rounded-md text-sm font-medium block '
               }
             >
               Home
@@ -182,8 +182,8 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
-                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-bold underline  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-500 px-3 py-2 rounded-md text-sm font-medium block '
               }
             >
               Service
@@ -194,8 +194,8 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
-                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-bold underline  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-500 px-3 py-2 rounded-md text-sm font-medium block '
               }
             >
               Job
@@ -230,8 +230,8 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
-                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-bold underline  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-500 px-3 py-2 rounded-md text-sm font-medium block '
               }
             >
               About
@@ -254,8 +254,8 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
-                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-bold underline  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-500 px-3 py-2 rounded-md text-sm font-medium block '
               }
             >
               Careers
@@ -266,8 +266,8 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
               className={({ isActive }) =>
                 isActive
-                  ? 'text-black px-3 py-2 rounded-md text-sm font-medium  block'
-                  : 'hover:bg-gray-300 hover:text-white text-gray-300 px-3 py-2 rounded-md text-sm font-medium block '
+                  ? 'text-red-600 px-3 py-2 rounded-md text-sm font-bold underline  block'
+                  : 'hover:bg-gray-300 hover:text-white text-gray-500 px-3 py-2 rounded-md text-sm font-medium block '
               }
             >
               Contact
