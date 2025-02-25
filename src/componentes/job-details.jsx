@@ -66,12 +66,14 @@ const JobDetails = () => {
                   </p>
                 </div>
 
-                <button
+                <a href="#">
+                  <button
                   className="mt-4 w-full py-2 border-2 border-purple-500 text-purple-500 font-semibold rounded-lg hover:bg-purple-100 transition cursor-pointer"
-                  onClick={() => navigate(`/jobdetails/${job.id}`)}
+                  onClick={() => navigate(`/jobdetails/${job.id}`)} href="#"
                 >
                   View Details
                 </button>
+                </a>
               </div>
             ))}
           </div>

@@ -13,34 +13,9 @@ const Job = () => {
   const [jobSearch, setJobSearch] = useState("");
   const [locationSearch, setLocationSearch] = useState("");
 
-  // const jobs = [
+  
     
-  //     { title: "Software Engineer", company: "TechVision", location: "Hyderabad", experience: "3 Years of experience" },
-  //     { title: "Product Manager", company: "InnovateHub", location: "Bangalore", experience: "7 Years of experience" },
-  //     { title: "Data Analyst", company: "DataWorks", location: "Pune", experience: "2 Years of experience" },
-  //     { title: "HR Specialist", company: "PeopleFirst", location: "Mumbai", experience: "4 Years of experience" },
-  //     { title: "Marketing Executive", company: "BrandBoost", location: "Delhi", experience: "3 Years of experience" },
-  //     { title: "Frontend Developer", company: "CodeCrafters", location: "Chennai", experience: "2 Years of experience" },
-  //     { title: "Backend Developer", company: "ServerSide Inc.", location: "Kolkata", experience: "3 Years of experience" },
-  //     { title: "UI/UX Designer", company: "PixelPerfection", location: "Bangalore", experience: "5 Years of experience" },
-  //     { title: "Business Analyst", company: "BizConsult", location: "Noida", experience: "4 Years of experience" },
-  //     { title: "DevOps Engineer", company: "CloudMasters", location: "Pune", experience: "6 Years of experience" },
-  //     { title: "Sales Manager", company: "QuickSales", location: "Hyderabad", experience: "5 Years of experience" },
-  //     { title: "Content Writer", company: "WordSmiths", location: "Chennai", experience: "2 Years of experience" },
-  //     { title: "Operations Manager", company: "EfficientOps", location: "Delhi", experience: "8 Years of experience" },
-  //     { title: "Project Coordinator", company: "TaskFlow", location: "Bangalore", experience: "3 Years of experience" },
-  //     { title: "System Administrator", company: "SecureNet", location: "Mumbai", experience: "5 Years of experience" },
-  //     { title: "Digital Marketing Specialist", company: "AdExperts", location: "Kolkata", experience: "4 Years of experience" },
-  //     { title: "Technical Support Engineer", company: "HelpDesk Pro", location: "Noida", experience: "2 Years of experience" },
-  //     { title: "QA Engineer", company: "BugBusters", location: "Chennai", experience: "3 Years of experience" },
-  //     { title: "Finance Analyst", company: "MoneyMatters", location: "Bangalore", experience: "5 Years of experience" },
-  //     { title: "Creative Director", company: "DesignPulse", location: "Delhi", experience: "7 Years of experience" },
-  //     { title: "Network Engineer", company: "NetConnect", location: "Pune", experience: "4 Years of experience" },
-  //     { title: "Database Administrator", company: "DataVault", location: "Hyderabad", experience: "6 Years of experience" },
-  //     { title: "Social Media Manager", company: "TrendWave", location: "Mumbai", experience: "3 Years of experience" },
-  //     { title: "Full Stack Developer", company: "CodeForge", location: "Bangalore", experience: "4 Years of experience" },
-  //     { title: "IT Support Specialist", company: "TechHelp", location: "Chennai", experience: "3 Years of experience" }
-  //   ];
+  
     const filteredJobs = jobs.filter((job) => 
       job.title.toLowerCase().includes(jobSearch.toLowerCase()) ||
       job.company.toLowerCase().includes(jobSearch.toLowerCase())

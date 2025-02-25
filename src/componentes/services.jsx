@@ -1,48 +1,9 @@
-import img1 from '../assets/products/image33.png'
-import img2 from '../assets/products/image 35.png'
-import img3 from '../assets/products/image36.png'
-import img4 from '../assets/products/image 37.png'
-import img5 from '../assets/products/image 38.png'
-import img6 from '../assets/products/image 39.png'
-import img7 from '../assets/products/image 40.png'
-import img8 from '../assets/products/image 41.png'
-import img9 from '../assets/products/image 42.png'
-import img10 from '../assets/products/image 43.png'
-import img11 from '../assets/products/image 44.png'
-import img12 from '../assets/products/image 45.png'
-import img13 from '../assets/products/image 46.png'
-import img14 from '../assets/products/image 47.png'
-import img15 from '../assets/products/image 48.png'
-import img16 from '../assets/products/image 49.png'
-import img17 from '../assets/products/image 50.png'
-import img18 from '../assets/products/image 51.png'
-import img19 from '../assets/products/image 52.png'
-
+import { list } from '../data'
 import Cont5 from './Home/cont5'
-
+import { useNavigate } from 'react-router-dom';
 function Services() {
-    const list = [
-      { title: "Permanent Staffing", image: img1 },
-      { title: "Temporary Staffing", image: img2},
-      { title: "Contract Staffing", image: img3},
-      { title: "Executive Search", image: img4 },
-      { title: "Recruitment Process Outsourcing (RPO)", image: img5},
-      { title: "Skill Gap Assessment", image: img6},
-      { title: "Internship Program Management", image: img7},
-      { title: "Campus Recruitment Drives", image: img8},
-      { title: "Graduate Trainee Programs", image: img9},
-      { title: "Diversity & Inclusion Hiring Initiatives", image: img10 },
-      { title: "Onboarding and Training Support", image: img11 },
-      { title: "Pre-Placement Offer (PPO) Recruitment", image: img12 },
-      {title:'Remote Talent Pooling', image:img13},
-      {title:'Payroll Management', image:img14},
-      {title:'Labour Compliance Management', image:img15},
-      {title:'Freelance Recruiter Partnership', image:img16},
-      {title:'Outplacement Services', image:img17},
-      {title:'HR Consulting and Strategy', image:img18},
-      {title:'Talent Mapping and Market Intelligence', image:img19},
-      
-    ];
+  const navigate = useNavigate();
+   
   
     return (
       <>
@@ -59,7 +20,7 @@ function Services() {
               <img src={service.image} alt={service.title} className="w-full h-40 object-cover" />
               <div className="p-4">
                 <h3 className="text-lg font-semibold">{service.title}</h3>
-                <a href="#" className="text-blue-500 text-sm font-medium mt-2 inline-flex items-center">
+                <a href="#" onClick={() => navigate(`/DetailService/${service.id}`)} className="text-blue-500 text-sm font-medium mt-2 inline-flex items-center">
                   View Details →
                 </a>
               </div>
