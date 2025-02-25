@@ -69,8 +69,8 @@ function Cont2() {
   </form>
 </div>
 
-      <div className="flex flex-col items-center p-6 bg-[#F9F5FF] min-h-screen w-full">
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-6 mt-10 w-full md:max-w-none">
+  <div className="flex flex-col items-center p-6 bg-[#F9F5FF] min-h-screen w-full">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 sm:gap-6 mt-10 w-full md:max-w-none">
     {filteredJobs.map((job, index) => (
       <div
         key={index}
@@ -103,6 +103,11 @@ function Cont2() {
       </div>
     ))}
   </div>
+  <button onClick={() => {
+    navigate('/job');
+    window.scrollTo(0, 0); // Scroll to top
+  }} className="text-blue-500 px-14 mt-10 rounded-full hover:bg-blue-500 hover:text-white mb-10 font-semibold py-2 border border-blue-500">See more</button>
+
 </div>
 
     </>

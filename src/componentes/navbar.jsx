@@ -171,7 +171,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? 'text-red-600 px-3 py-2 rounded-md text-sm font-bold underline block'
-                  : 'hover:bg-gray-300 hover:text-white text-gray-500 px-3 py-2 rounded-md text-sm font-medium block '
+                  : ' hover:text-white text-gray-500 px-3 py-2 rounded-md text-sm font-medium block '
               }
             >
               Home
